@@ -1,0 +1,4 @@
+C:\projects\hfo_engine\BrainQuick\mockPlugin\obj\Debug\MockPlugin.csproj.AssemblyReference.cache
+C:\projects\hfo_engine\BrainQuick\mockPlugin\obj\Debug\MockPlugin.csproj.CoreCompileInputs.cache
+C:\projects\hfo_engine\BrainQuick\mockPlugin\obj\Debug\Micromed.ExternalCalculation.MockExternalCalculation.dll
+C:\projects\hfo_engine\BrainQuick\mockPlugin\obj\Debug\Micromed.ExternalCalculation.MockExternalCalculation.pdb

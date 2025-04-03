@@ -1,0 +1,2 @@
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.csproj.AssemblyReference.cache
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.csproj.CoreCompileInputs.cache

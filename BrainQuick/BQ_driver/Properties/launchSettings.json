@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Micromed.ExternalCalculation.HfoAnnotateExternalCalculation": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Program Files\\Micromed\\BrainQuickEEG\\BrainQuickAgent.exe\" port:5100\r\n",
+      "workingDirectory": "C:\\Users\\vboxuser\\Desktop"
+    }
+  }
+}

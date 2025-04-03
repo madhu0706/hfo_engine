@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<RootNamespace>Micromed.ExternalCalculation.DemoIIIExternalCalculation</RootNamespace>
+		<AssemblyName>Micromed.ExternalCalculation.DemoIIIExternalCalculation</AssemblyName>
+		<SccProjectName>&lt;Project Location In Database&gt;</SccProjectName>
+		<SccLocalPath>&lt;Local Binding Root of Project&gt;</SccLocalPath>
+		<SccAuxPath>&lt;Source Control Database&gt;</SccAuxPath>
+		<!--<SccProvider>Jazz Source Control Provider:{AC8810C5-F6E7-4145-83AA-FDFFF6F5506D}</SccProvider> -->
+
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<OutputPath>..\bin\Debug\Plugins\</OutputPath>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<OutputPath>..\bin\Release\Plugins\</OutputPath>
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(Configuration)'=='Debug'">
+		<Reference Include="Micromed.Framework.Utility">
+			<HintPath>C:\temp\SharedDlls\Micromed.Framework.Utility.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup Condition="'$(Configuration)'=='Release'">
+		<PackageReference Include="Micromed.Framework.Utility" Version="6.9.0.*" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="Micromed.ExternalCalculation.Common">
+			<HintPath>C:\Program Files\Micromed\BrainQuickEEG\Plugins\Micromed.ExternalCalculation.Common.dll</HintPath>
+		</Reference>
+		<Reference Include="Micromed.ExternalCalculation.MicHfoExternalCalculation">
+			<HintPath>..\..\..\..\..\Program Files (x86)\Micromed\BrainQuickEEG\Plugins\Micromed.ExternalCalculation.MicHfoExternalCalculation.dll</HintPath>
+		</Reference>
+		<Reference Include="Micromed.ExternalCalculation.MockExternalCalculation">
+			<HintPath>..\..\..\..\..\Program Files (x86)\Micromed\BrainQuickEEG\Plugins\Micromed.ExternalCalculation.MockExternalCalculation.dll</HintPath>
+		</Reference>
+		<Reference Include="System" />
+		<Reference Include="System.Core" />
+		<Reference Include="System.Xml.Linq" />
+		<Reference Include="System.Data.DataSetExtensions" />
+		<Reference Include="Microsoft.CSharp" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+</Project>

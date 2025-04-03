@@ -1,0 +1,6 @@
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\net6.0\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.csproj.AssemblyReference.cache
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\net6.0\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\net6.0\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.AssemblyInfoInputs.cache
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\net6.0\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.AssemblyInfo.cs
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\net6.0\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.csproj.CoreCompileInputs.cache
+C:\projects\hfo_engine\BrainQuick\BQ_driver\obj\Debug\net6.0\Micromed.ExternalCalculation.HfoAnnotateExternalCalculation.sourcelink.json
