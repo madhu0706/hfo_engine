@@ -1,0 +1,18 @@
+Starting TRC file detection...
+Final Result: No TRC file detected.
+Starting TRC file detection...
+Final Result: No TRC file detected.
+Detected TRC file from Brain Quick: 
+TRC file set: 
+Starting upload for TRC file: , Temp Path: C:/projects/hfo_engine/UI/HFO_ENGINE/bin/Release/net6.0-windows/win-x64/temp/
+Error: TRC file does not exist. File path: 
+Uploaded TRC file successfully.
+Starting TRC file detection...
+Final Result: No TRC file detected.
+Starting TRC file detection...
+Final Result: No TRC file detected.
+Detected TRC file from Brain Quick: 
+TRC file set: 
+Starting upload for TRC file: , Temp Path: C:/projects/hfo_engine/UI/HFO_ENGINE/bin/Release/net6.0-windows/win-x64/temp/
+Error: TRC file does not exist. File path: 
+Uploaded TRC file successfully.

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFO_ENGINE", "HFO_ENGINE\HFO_ENGINE.csproj", "{D31F941D-85E3-495C-829A-C320E58E73E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{13BF9C6A-450E-493B-8FA7-706275F05764}"
+	ProjectSection(SolutionItems) = preProject
+		AdvancedSettings.Designer.cs = AdvancedSettings.Designer.cs
+		HFO_ENGINE\app.manifest = HFO_ENGINE\app.manifest
+		ConversorStep1.Designer.cs = ConversorStep1.Designer.cs
+		ConversorStep2.Designer.cs = ConversorStep2.Designer.cs
+		ConversorStep3.Designer.cs = ConversorStep3.Designer.cs
+		CycleTime.Designer.cs = CycleTime.Designer.cs
+		EEG.Designer.cs = EEG.Designer.cs
+		EVT.Designer.cs = EVT.Designer.cs
+		MainWindow.Designer.cs = MainWindow.Designer.cs
+		Montage.Designer.cs = Montage.Designer.cs
+		Progress.Designer.cs = Progress.Designer.cs
+		TimeWindow.Designer.cs = TimeWindow.Designer.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31F941D-85E3-495C-829A-C320E58E73E0}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D31F941D-85E3-495C-829A-C320E58E73E0}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D31F941D-85E3-495C-829A-C320E58E73E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31F941D-85E3-495C-829A-C320E58E73E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A0C90DB-3090-4141-BE85-3D61676C45C3}
+	EndGlobalSection
+EndGlobal

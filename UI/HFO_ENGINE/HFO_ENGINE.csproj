@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+	<StartupObject>HFO_ENGINE.Program</StartupObject>
+	<RootNamespace>HFO_ENGINE</RootNamespace>
+    <AssemblyName>HFO_ENGINE</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<NoWarn>CS8618;CS8600;CS8602</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+	<OutputPath>C:\Users\vboxuser\Desktop\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<PlatformTarget>AnyCPU</PlatformTarget>
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<PublishSingleFile>true</PublishSingleFile>
+	<SelfContained>true</SelfContained>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.CodeDom" Version="8.0.0" />
+    <PackageReference Include="System.Windows.Extensions" Version="6.0.0" />
+    <PackageReference Include="CommandLineParser" Version="2.4.3" />
+	<PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <PackageReference Include="System.Management" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.6" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    <PackageReference Include="System.Threading.AccessControl" Version="6.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+<!-- Update other dependencies similarly -->
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="AdvancedSettings.cs" />
+    <Compile Include="AdvancedSettings.Designer.cs" />
+    <Compile Include="ConversorStep1.Designer.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ConversorStep2.Designer.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ConversorStep3.Designer.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="CycleTime.cs" />
+    <Compile Include="CycleTime.Designer.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="EEG.cs" />
+    <Compile Include="EEG.Designer.cs" />
+    <Compile Include="EVT.cs" />
+    <Compile Include="ConversorStep1.cs" />
+    <Compile Include="ConversorStep3.cs" />
+    <Compile Include="EVT.Designer.cs" />
+    <Compile Include="MainWindow.cs" />
+    <Compile Include="MainWindow.Designer.cs" />
+    <Compile Include="Montage.Designer.cs" />
+    <Compile Include="Progress.cs" />
+    <Compile Include="Progress.Designer.cs" />
+    <Compile Include="TimeWindow.cs" />
+    <Compile Include="Montage.cs" />
+    <Compile Include="HfoEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConversorStep2.cs" />
+    <Compile Include="TimeWindow.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="AdvancedSettings.resx" />
+    <EmbeddedResource Include="ConversorStep2.resx" />
+    <EmbeddedResource Include="CycleTime.resx" />
+    <EmbeddedResource Include="EEG.resx" />
+    <EmbeddedResource Include="EVT.resx" />
+    <EmbeddedResource Include="ConversorStep1.resx" />
+    <EmbeddedResource Include="ConversorStep3.resx" />
+    <EmbeddedResource Include="MainWindow.resx" />
+    <EmbeddedResource Include="Progress.resx" />
+    <EmbeddedResource Include="TimeWindow.resx" />
+    <EmbeddedResource Include="Montage.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  </Project>
