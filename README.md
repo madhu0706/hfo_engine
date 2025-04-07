@@ -7,7 +7,36 @@ I have upgraded the software from .NET Framework 4.7.1 to .NET Core 6.0 to be co
 
 Core changes made:
 1) 
+## Prerequisites
 
+* Micromed BrainQuickEEG software installed.
+* Git installed.
+
+## Installation Steps
+
+1.  Clone the Repository:
+   
+    git clone https://github.com/madhu0706/hfo_engine.git
+
+2.  Replace Mock Plugins:
+    a) Navigate to your BrainQuickEEG Plugins directory: `~\Micromed\BrainQuickEEG\Plugins`.
+    b) Replace the existing mock plugin files with the following files from the cloned repository: `hfo_engine/HFO_ENGINE_Plugins/hfo_plugins`:
+        * `Micromed.ExternalCalculation.Common.dll`
+        * `Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll`
+        * `Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.deps.json`
+        * `Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.pdb`
+
+3.  Create the `hfo_engine` Directory:
+    * In the `~\Micromed\BrainQuickEEG\Plugins` directory, create a new folder named `hfo_engine`.
+
+4.  Copy HFO Engine Binaries:
+    * Copy all folders and files from the following directory in the cloned repository: `hfo_engine/UI/HFO_ENGINE/bin/Release/net6.0-windows/win-x64`
+    * Paste these files into the `~\Micromed\BrainQuickEEG\Plugins\hfo_engine` directory.
+
+5.  Create `temp` and `logs` Folders (if necessary):
+    * Inside the `~\Micromed\BrainQuickEEG\Plugins\hfo_engine` directory, create two new folders named `temp` and `logs` if they do not already exist. These folders will store temporary trace files and log files, respectively.
+
+## Usage Instructions
 ## Usage Instructions
 
 1.  Open External Calculation:
