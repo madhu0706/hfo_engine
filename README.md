@@ -26,6 +26,7 @@ This guide outlines the steps to install and configure the HFO Engine for use wi
     a) Navigate to BrainQuickEEG Plugins directory: `~\Micromed\BrainQuickEEG\Plugins`.
     
     b) Replace the existing mock plugin files with the following files from the cloned repository: `hfo_engine/HFO_ENGINE_Plugins/hfo_plugins`:
+    
         * `Micromed.ExternalCalculation.Common.dll`
         * `Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll`
         * `Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.deps.json`
