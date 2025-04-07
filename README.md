@@ -24,6 +24,7 @@ This guide outlines the steps to install and configure the HFO Engine for use wi
 2.  Replace Mock Plugins:
    
     a) Navigate to BrainQuickEEG Plugins directory: `~\Micromed\BrainQuickEEG\Plugins`.
+    
     b) Replace the existing mock plugin files with the following files from the cloned repository: `hfo_engine/HFO_ENGINE_Plugins/hfo_plugins`:
         * `Micromed.ExternalCalculation.Common.dll`
         * `Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll`
@@ -75,8 +76,3 @@ This guide outlines the steps to install and configure the HFO Engine for use wi
 
 This upgrade aligns the HFO Engine plugin with enterprise-grade engineering practices. The migration accommodates .NET 6.0 architecture, CLI-based control, rich GUI compatibility, and single-file deployment for clinical EEG workflows. The project is now fully positioned for scalable, secure, and modern EEG analysis deployments across Micromed-supported environments.These changes collectively bring the HFO Engine application in line with .NET 6.0 best practices, modernize its architecture for plugin-based deployment in Brain Quick 4.x, and ensure compatibility with future-facing EEG analysis workflows. Upgraded the target framework from legacy .NET Framework to net6.0-windows, enabling cross-version support and forward compatibility. Explicit UI stack support for both WinForms and WPF retained (<UseWindowsForms> and <UseWPF>), ensuring future extensibility toward hybrid UIs if needed. Ensures compatibility with Windows APIs while using lightweight, modern libraries. 
 
-
-
-
-"# hfo_engine" 
-"# hfo_engine" 
