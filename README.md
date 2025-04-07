@@ -21,7 +21,21 @@ Installation guide:
    
 4) Copy all the folders and files from hfo_engine/UI/HFO_ENGINE/bin/Release/net6.0-windows/win-x64 github to ~\Micromed\BrainQuickEEG\Plugins\hfo_engine.
 
-5) Make sure to create a temp and logs folder in the ~\Micromed\BrainQuickEEG\Plugins\hfo_engine directory to copy temporary trc files and log files. 
+5) Make sure to create a temp and logs folder in the ~\Micromed\BrainQuickEEG\Plugins\hfo_engine directory to copy temporary trc files and log files.
+
+6) Open External calculation from Brain quick agent and select HFO Engine calculation from the dropdown.
+
+7) HFO Engine will be ready to use.
+
+8) The trace file path will be auto populated if you open HFO_ENGINE through the Brain Quick software. Click on Save.
+
+9) Select the montages and select time interval.
+
+10) Click on Start. Once the event file is processed it will get saved in the C:\system98\temp directory.
+
+11) You will get a message "Analysis Completed. Please close the HFO_ENGINE."
+12) Close the HFO_ENGINE application. Wait until the calculation is finished and click on Ok.
+13) The Event file is created and Annotations are auto-populated in the Brain Quick Agent.
 
 Listserv for users: send email to hfoengine-request@freelists.org with 'subscribe' in the Subject field (no quotes) 
 
