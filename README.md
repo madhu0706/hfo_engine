@@ -11,6 +11,7 @@ Core changes made:
 Installation guide:
 1) Clone the repository: git clone https://github.com/madhu0706/hfo_engine
 2) Replace the Mock Plugins in the ~\Micromed\BrainQuickEEG\Plugins directory with Plugins present in the https://github.com/madhu0706/hfo_engine/tree/main/HFO_ENGINE_Plugins/hfo_plugins folder
+   
    a) Micromed.ExternalCalculation.Common.dll
    b) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll
    c) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.deps.json
