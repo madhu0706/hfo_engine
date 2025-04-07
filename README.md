@@ -8,34 +8,36 @@ I have upgraded the software from .NET Framework 4.7.1 to .NET Core 6.0 to be co
 Core changes made:
 1) 
 
-Installation guide:
-1) Clone the repository: git clone https://github.com/madhu0706/hfo_engine
-   
-2) Replace the Mock Plugins in the ~\Micromed\BrainQuickEEG\Plugins directory with Plugins present in the https://github.com/madhu0706/hfo_engine/tree/main/HFO_ENGINE_Plugins/hfo_plugins folder.
-   a) Micromed.ExternalCalculation.Common.dll
-   b) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll
-   c) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.deps.json
-   d) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.pdb
-   
-3) Create a folder 'hfo_engine' in the ~\Micromed\BrainQuickEEG\Plugins directory.
-   
-4) Copy all the folders and files from hfo_engine/UI/HFO_ENGINE/bin/Release/net6.0-windows/win-x64 github to ~\Micromed\BrainQuickEEG\Plugins\hfo_engine.
+## Usage Instructions
 
-5) Make sure to create a temp and logs folder in the ~\Micromed\BrainQuickEEG\Plugins\hfo_engine directory to copy temporary trc files and log files.
+1.  Open External Calculation:
+    * Launch the BrainQuickEEG agent.
+    * Open the "External calculation" feature.
+    * Select "HFO Engine calculation" from the dropdown menu.
+      
+2.  Configure Trace File Path:
+    * The trace file path should be automatically populated.
+    * Click "Save" to confirm.
+      
+3.  Select Montages and Time Interval:
+    * Choose the desired montages for analysis.
+    * Specify the time interval for processing.
+      
+4.  Start Analysis:
+    * Click "Start" to begin the HFO detection process.
+    * The processed event file will be saved to `C:\system98\temp`.
 
-6) Open External calculation from Brain quick agent and select HFO Engine calculation from the dropdown.
-
-7) HFO Engine will be ready to use.
-
-8) The trace file path will be auto populated if you open HFO_ENGINE through the Brain Quick software. Click on Save.
-
-9) Select the montages and select time interval.
-
-10) Click on Start. Once the event file is processed it will get saved in the C:\system98\temp directory.
-
-11) You will get a message "Analysis Completed. Please close the HFO_ENGINE."
-12) Close the HFO_ENGINE application. Wait until the calculation is finished and click on Ok.
-13) The Event file is created and Annotations are auto-populated in the Brain Quick Agent.
+5.  Completion Message:
+    * Once the analysis is complete, a message "Analysis Completed. Please close the HFO_ENGINE." will appear.
+      
+6.  Close HFO Engine:
+    * Close the HFO_ENGINE application.
+    * Wait for the calculation to finish.
+    * Click "OK" in the BrainQuickEEG agent.
+      
+7.  View Results:
+    * The event file is created.
+    * Annotations are automatically populated in the BrainQuickEEG agent.
 
 Listserv for users: send email to hfoengine-request@freelists.org with 'subscribe' in the Subject field (no quotes) 
 
