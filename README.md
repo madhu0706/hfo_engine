@@ -2,7 +2,7 @@ This repository contains all files required to deploy the HFO-Engine plug-in for
 
 Software Authors: Shennan Weiss M.D. Ph.D., Tomas Pastore M.S., Matthias Gatti M.S., Federico Raimondo Ph.D., Diego Slezak Ph.D., Madhumathi Devaraj, M.S.
 
-Software Upgrades, Optimization, and Maintenance: Madhumathi Devaraj, M.S.
+Software Author, Upgrades, Optimization, and Maintenance: Madhumathi Devaraj, M.S.
 
 Upgraded the software from .NET Framework 4.7.1 to .NET Core 6.0 to be compotabile with Brain Quick Version 4.
 
