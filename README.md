@@ -11,16 +11,17 @@ Core changes made:
 Installation guide:
 1) Clone the repository: git clone https://github.com/madhu0706/hfo_engine
    
-2) Replace the Mock Plugins in the ~\Micromed\BrainQuickEEG\Plugins directory with Plugins present in the https://github.com/madhu0706/hfo_engine/tree/main/HFO_ENGINE_Plugins/hfo_plugins folder
+2) Replace the Mock Plugins in the ~\Micromed\BrainQuickEEG\Plugins directory with Plugins present in the https://github.com/madhu0706/hfo_engine/tree/main/HFO_ENGINE_Plugins/hfo_plugins folder.
    a) Micromed.ExternalCalculation.Common.dll
    b) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll
    c) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.deps.json
    d) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.pdb
+   
+3) Create a folder 'hfo_engine' in the ~\Micromed\BrainQuickEEG\Plugins directory.
+   
+4) Copy all the folders and files from hfo_engine/UI/HFO_ENGINE/bin/Release/net6.0-windows/win-x64 github to ~\Micromed\BrainQuickEEG\Plugins\hfo_engine.
 
-Document and Corresponding Author: Shennan Weiss M.D. Ph.D. shennanweiss@gmail.com
-Assistant Professor Neurology and Physiology/Pharmacology
-State University of New York Downstate
-Brooklyn, NY
+5) Make sure to create a temp and logs folder in the ~\Micromed\BrainQuickEEG\Plugins\hfo_engine directory to copy temporary trc files and log files. 
 
 Listserv for users: send email to hfoengine-request@freelists.org with 'subscribe' in the Subject field (no quotes) 
 
