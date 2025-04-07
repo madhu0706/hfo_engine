@@ -2,6 +2,20 @@
 
 Software Authors: Shennan Weiss M.D. Ph.D., Tomas Pastore M.S., Zachary Waldman M.S., Inkyung Song Ph.D., Matthias Gatti M.S., Federico Raimondo Ph.D., Diego Slezak Ph.D. 
 
+
+I have upgraded the software from .NET Framework 4.7.1 to .NET Core 6.0 to be compotabile with Brain Quick Version 4.
+
+Core changes made:
+1) 
+
+Installation guide:
+1) Clone the repository: git clone https://github.com/madhu0706/hfo_engine
+2) Replace the Mock Plugins in the ~\Micromed\BrainQuickEEG\Plugins directory with Plugins present in the https://github.com/madhu0706/hfo_engine/tree/main/HFO_ENGINE_Plugins/hfo_plugins folder
+   a) Micromed.ExternalCalculation.Common.dll
+   b) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.dll
+   c) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.deps.json
+   d) Micromed.ExternalCalculation.HfoEnginePluginExternalCalculation.pdb
+
 Document and Corresponding Author: Shennan Weiss M.D. Ph.D. shennanweiss@gmail.com
 Assistant Professor Neurology and Physiology/Pharmacology
 State University of New York Downstate
